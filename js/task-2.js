@@ -1,3 +1,4 @@
+class Storage {
   #items;
 
   constructor(items) {
@@ -14,8 +15,8 @@
 
   removeItem(itemToRemove) {
     this.#items = this.#items.filter((item) => item !== itemToRemove);
+  }
 }
-
 
 
 
